@@ -1,0 +1,24 @@
+name: add_to_wallets_example
+description: Demonstrates how to use the add_to_wallets plugin.
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.18.0<3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  add_to_wallets:
+    path: ../
+  uuid:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
